@@ -14,6 +14,13 @@ body, html {
     src: url('fonts/modern.otf');
 }
 
+.title-container {
+    width: 500px;
+    height: 120px;
+    overflow: hidden;
+    margin: auto;
+}
+
 .top-section {
     position:relative;
     background-color: #6EC6BA;
@@ -31,7 +38,6 @@ body, html {
             
 }
 .sub-title {
-    position:absolute;
     text-align: center;
     left: 0;
     right: 0;
