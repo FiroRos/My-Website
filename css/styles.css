@@ -5,6 +5,7 @@ body, html {
     padding: 0;
 }
 
+/* Fonts And Text*/
 @font-face {
     font-family: sketchy;
     src: url('fonts/sketchy.ttf');
@@ -13,7 +14,13 @@ body, html {
     font-family: modern;
     src: url('fonts/modern.otf');
 }
+.bold-text {
+    font-weight: bolder;
+    font-size: 25px;
+}
+/*Fonts And Text End*/
 
+/*Website Top Section*/
 .title-container {
     width: 500px;
     height: 120px;
@@ -37,6 +44,7 @@ body, html {
 
             
 }
+
 .sub-title {
     text-align: center;
     left: 0;
@@ -46,8 +54,92 @@ body, html {
     color: white;
     font-family: modern;
     font-size: 13px;
+}
+/*Website Top Section End*/
+
+/*Buttons*/
+.projects-button {
+    width: 155px;
+    height: 38px;
+    padding-top: 0px;
+    margin-right: 20px;
+    background-color: #6EC6BA;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+}
+.corals-button {
+    position: relative;
+    width: 120px;
+    height: 38px;
+    padding-top: 0px;
+    margin-right: 20px;
+    background-color: #6EC6BA;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+
+}
+
+.about-me-button {
+    width: 150px;
+    height: 38px;
+    padding-top: 0px;
+    background-color: #6EC6BA;
+    color: white;
+    text-decoration: none;
+    font-family: mArial, Helvetica, sans-serif;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+
+}
+/*Buttons End*/
+
+/*Left Square*/
+.left-main-square {
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 700px;
+    height: 700px;
+    background-color: #fcfcfc;
+    border: 10px solid #CCF1D2;
+    float: left
+
+}
+
+.main-article {
+    margin-left: 40px;
+}
+
+.main-article-title {
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: #474747;
+}
+
+.main-article-text {
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:#474747;
+
+}
+/*Left Square End*/
 
 
-    }
 
 
